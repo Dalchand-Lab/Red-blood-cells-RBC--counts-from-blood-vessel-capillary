@@ -1,5 +1,8 @@
 # Red-blood-cells-RBC-counts-from-blood-vessel-capillary
-Here counting the number of RBCs traveling in a single blood vessel capillary. This is based on two-photon imaging modality. A red dye (Texas-red) 70 kD is used to labal the vessel wall. 
-In this example RBC count is based on the black and white line. It counts the number of white line, which is n+1 of black lines in ideal condition or very clear/short duration. But for long time say 20 or 30 min if missed few RBC may not make much diffrence.
-In this code .tiff images has been used. 
-Then croped the segment of lines visible in it. Simple code but usefull in a scenario where lines are clear not much of overlap. Example contains output couts and image. 
+We are counting the number of RBCs traveling through a single capillary blood vessel using a two-photon imaging modality. A red dye (Texas Red, 70 kD) is used to label the vessel wall.
+
+In this example, the RBC count is based on black and white lines. The code counts the number of white lines, which is ideally n+1 relative to the number of black lines under clear and short-duration imaging conditions. However, over a longer duration—say 20 to 30 minutes—missing a few RBCs may not significantly affect the results.
+
+The code uses .tiff images and crops the segment where the lines are visible(Imagej is used for x,y location to crop). It’s a simple but effective approach, especially in cases where the lines are clear and there is minimal overlap. The example includes output counts and a sample image.
+
+The code is annotated with comments to explain each operation.
